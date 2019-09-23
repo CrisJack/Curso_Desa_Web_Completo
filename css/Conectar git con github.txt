@@ -1,0 +1,137 @@
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ git config --global user.name CrisJack
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ git config --global user.email jack04_6@hotmail.com
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ git config --list
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge --skip -- %f
+filter.lfs.process=git-lfs filter-process --skip
+filter.lfs.required=true
+credential.helper=manager
+user.name=CrisJack
+user.email=jack04_6@hotmail.com
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ ..cd
+bash: ..cd: command not found
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ :cd..
+bash: :cd..: command not found
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ cd..
+bash: cd..: command not found
+
+Alumno@LAB05-PC06 MINGW64 ~
+$ cd ..
+
+Alumno@LAB05-PC06 MINGW64 /c/Users
+$ ls
+ Administrador/   Alumno/   'Default User'@   desktop.ini
+'All Users'@      Default/   defaultuser0/    Public/
+
+Alumno@LAB05-PC06 MINGW64 /c/Users
+$ f:
+bash: f:: command not found
+
+Alumno@LAB05-PC06 MINGW64 /c/Users
+$ cd ..
+
+Alumno@LAB05-PC06 MINGW64 /c
+$ f:
+bash: f:: command not found
+
+Alumno@LAB05-PC06 MINGW64 /c
+$ cd ..
+
+Alumno@LAB05-PC06 MINGW64 /
+$ f:
+bash: f:: command not found
+
+Alumno@LAB05-PC06 MINGW64 /
+$ cd f:
+
+Alumno@LAB05-PC06 MINGW64 /f
+$
+---------------------------------------
+
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil
+$ git init
+Initialized empty Git repository in F:/css/mi_perfil/.git/
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ git add .
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   foto.jpg
+        new file:   index.html
+        new file:   index2.html
+        new file:   style.css
+
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ git commit -m"Primer Repositorio"
+[master (root-commit) 61c490d] Primer Repositorio
+ 4 files changed, 209 insertions(+)
+ create mode 100644 foto.jpg
+ create mode 100644 index.html
+ create mode 100644 index2.html
+ create mode 100644 style.css
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ git remote add origin https://github.com/CrisJack/curriculum.git
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 32.84 KiB | 10.95 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/CrisJack/curriculum.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ ^C
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$ ^C
+
+Alumno@LAB05-PC06 MINGW64 /f/css/mi_perfil (master)
+$

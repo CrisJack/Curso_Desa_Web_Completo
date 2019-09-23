@@ -1,0 +1,8 @@
+/*SELECTOR{
+    PROPIEDAD:VALOR;
+    PROPIEDAD:VALOR:
+}*/
+body {
+  background: cornflowerblue;
+  color: cornsilk;
+}

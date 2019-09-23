@@ -1,0 +1,25 @@
+/*Selector Universal*/
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/*Selector referente a etiqueta o de Tipo*/
+h1  {
+    background: lightgray;
+}
+p{
+    background: lightskyblue;
+}
+ul li a{
+    color: peru;
+}
+/*Selector referente a clase*/
+.😭{
+    background: grey;
+}
+/*Selector referente a clase*/
+#font{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
