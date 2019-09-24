@@ -1,0 +1,32 @@
+/*top: lado superior
+right: lado derecho
+bottom: lado inferior
+left:lado izquierdo*/
+/*especificidad*/
+*{
+    margin:3% 3% 3%;
+}
+h1{
+    border: 1px solid red;
+    width: 30%;
+    padding-left:15% ;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    background: rgb(86, 69, 201);
+    color: #fff;
+
+}
+h1:hover{
+    border: 2px solid green;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    transition-duration: 0.5s;
+    transition-delay: 10ms;
+}
+.caja2{
+    border: 3px solid rgb(37, 6, 235);
+}
+.caja{
+    border-left: 3px solid indigo;
+    margin-top: 100px ;
+}

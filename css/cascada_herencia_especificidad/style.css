@@ -1,0 +1,40 @@
+/*Etiqueta................1
+  clase...................10
+  id......................100
+  estilos en linea........1000
+  important...............100000000*/
+/*especificidad*/
+p{
+    background: chocolate !important;
+}
+.color{
+    background: cornflowerblue;
+}
+#color_id{
+    background: darkgreen;
+}
+/*Cascada*/
+
+div .cascada{
+    color: lawngreen;
+}
+
+.cascada{
+    color: darkmagenta;
+    padding: 8px;
+}
+.cascada{
+    color: darkolivegreen;
+    background: darkturquoise;
+}
+.cascada{
+    color: floralwhite;
+}
+.herencia{
+    color: lawngreen;
+    font-size: 50px;
+}
+a{
+    color: inherit;
+    font-size: 20px;
+}
