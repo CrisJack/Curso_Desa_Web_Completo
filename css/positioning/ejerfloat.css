@@ -1,43 +1,66 @@
-.conteiner {
-  width: 900px;
-  height: 600px;
-  border: 1px solid black;
-  margin: 100px auto;
-  position: relative;
+*{
+    margin: none;
+    padding: 0px;
 }
-.titulo{
-    width: 899px;
-    height: 75px;
-    background-color: yellow;
-    border-bottom:1px solid black ;
-    text-align: center;
-
+body{
+    margin: 200px 200px ;
 }
-footer{
-    width: 899px;
-    height: 75px;
-    background-color: yellow;
-    border-top:1px solid black;
+.conteiner{
+    width: 1104px;
+    height: 804px;
+    border: 3px solid black;
+    position: relative;
+}
+.cabecera{
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px solid black;
+    background-color: yellow ;
+}
+.pie {
+    width: 100%;
+    height: 50px;
+    border-top: 3px solid black;
     position: absolute;
     bottom: 0px;
     text-align: center;
+    line-height: 50px;
+    background-color: yellow ;
+    font-size: 20px;
 }
-.antes{
-    width: 298px;
-    height: 450px;
-    border-right:1px solid black;
+.box1{
+    width: 33.3%;
+    height: 651px;
+    border-right: 1px solid black;
     float: left;
+}
+.box2{
+    width: 33.3%;
+    height: 651px;
+    border-right: 1px solid black;
+    float: left;
+}
+.box3{
+    width: 33%;
+    height: 651px;
+    float: left;
+}
+.cabecera .title{
+    width: 100%;
+    height: 50px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+}
+.conteiner h1,p{
+    text-align: center;
+}
+.conteiner p{
+    font-size: 25px;
+}
+.conteiner img{
+    width: 150px;
+    height: 150px;
     
 }
-.mono{
-    width: 298px;
-    height: 450px;
-    float: left;
-}
-.ahora{
-    width: 298px;
-    height: 450px;
-    float: left;
-    border-right:1px solid black;
-    
-}
+
