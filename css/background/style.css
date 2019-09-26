@@ -1,0 +1,13 @@
+body{
+    background-color: red;
+}
+.box{
+    width: 600px;
+    height: 400px; 
+    background-color: #4169e1;
+    margin: 80px auto;
+    background-image: url(gato.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: top 20px left 10px;
+}

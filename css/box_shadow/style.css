@@ -1,0 +1,7 @@
+.box{
+    width: 150px;
+    height: 100px;
+    margin: 100px;
+    background-color: blueviolet;
+    box-shadow: 20px 15px 3px 2px rgb(143, 155, 143);
+}

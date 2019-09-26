@@ -1,0 +1,43 @@
+.conteiner {
+  width: 900px;
+  height: 600px;
+  border: 1px solid black;
+  margin: 100px auto;
+  position: relative;
+}
+.titulo{
+    width: 899px;
+    height: 75px;
+    background-color: yellow;
+    border-bottom:1px solid black ;
+    text-align: center;
+
+}
+footer{
+    width: 899px;
+    height: 75px;
+    background-color: yellow;
+    border-top:1px solid black;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.antes{
+    width: 298px;
+    height: 450px;
+    border-right:1px solid black;
+    float: left;
+    
+}
+.mono{
+    width: 298px;
+    height: 450px;
+    float: left;
+}
+.ahora{
+    width: 298px;
+    height: 450px;
+    float: left;
+    border-right:1px solid black;
+    
+}

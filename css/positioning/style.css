@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkkhaki;
+}
+/*div{
+    margin: 60px;
+    position: relative;
+    background-color: darkgrey;
+}*/
+/*POSITION RELATIVE*/
+/* h1{
+    background-color: aqua;
+    margin-top: 100px;
+    position: relative;
+    bottom: 50px;
+}
+.box{
+    color: black;
+}
+.box1{
+    color: blue;
+}
+.box2{
+    color: brown;
+}*/
+/*POSITION ABSOLUTE*/
+/*h1{
+    background-color: cyan;
+    position: absolute;
+   right: 50px;
+}
+.box{
+    color: black;
+}
+.box1{
+    color: blue;
+}
+.box2{
+    color: brown;
+}*/
+header{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    width: 100%;
+}
